@@ -1,0 +1,12 @@
+.create-user-form {
+  margin: 1rem 2rem;
+
+  &__input {
+    font-family: 'Zilla Slab', serif;
+    width: 100%;
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}

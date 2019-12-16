@@ -1,0 +1,38 @@
+.user-list-container {
+  margin: 2rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.user-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 2rem;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+
+    &__delete {
+      cursor: pointer;
+      background-color: $color-primary-red;
+      color: white;
+      border: 1px solid $color-primary-red;
+      padding:1rem 2rem;
+      transition: all .3s;
+
+      &:hover {
+        background-color: white;
+        border: 1px solid $color-primary-red;
+        color: $color-primary-red;
+      }
+    }
+  }
+}

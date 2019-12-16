@@ -1,0 +1,14 @@
+.card {
+  background-color: white;
+  width: 50vw;
+  @media screen and (max-width: 600px) {
+    width: 90vw;
+  }
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.error-message {
+  color: $color-primary-red;
+  font-size: 4rem;
+  text-align: center;
+}
